@@ -37,7 +37,6 @@ public class FirstTest {
 
     @AfterClass
     public void tearDown () {
-
         driver.close();
     }
 

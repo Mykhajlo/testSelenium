@@ -1,1 +1,13 @@
+//*[@id="game"]/div[1]/main-header/header/div/header-navigation/div/div/a[1]
+//*[@id="game"]/div[1]/main-header/header/div/header-navigation/div/div/a[2]/translate/span
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[6]/td[1]/img
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[5]/td[1]/img
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[4]/td[1]/img
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[3]/td[1]/imghcfhcghc
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[2]/td[1]/img
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[1]/td[1]/img
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[6]/td[4]/a
+//*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[3]/td[4]/a
+
 //*[@id="game"]/div[1]/section/div[1]/section/table/tbody/tr[1]/td[4]/a
+//*[@id="game"]/div[1]/main-header/header/div/div/div[1]

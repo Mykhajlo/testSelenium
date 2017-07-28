@@ -24,7 +24,7 @@ import static com.github.automation.first.FirstTest.driver;
 public class OneSingleBet {
 
     public WebDriver webDriver;
-    public String element = "//*[@id=\"game\"]/div[1]/section/div[1]/section/table/tbody/tr[1]/td[4]/a";
+//    public String element = "//*[@id=\"game\"]/div[1]/section/div[1]/section/table/tbody/tr[1]/td[4]/a";
 
     @BeforeClass
     public void setUp() {
@@ -40,7 +40,7 @@ public class OneSingleBet {
 
 try {
     WebDriverWait wait = new WebDriverWait(driver, 30);
-    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/section/table/tbody/tr[1]/td[4]/a")));
+    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/section/table/tbody/tr[1]/td[4]/a"))); // find Add to Bet slip button for Race 1 and Trap 1
 } catch (Throwable e) {
     System.out.println("Error while swithing to the frame. " + e.getMessage());
 
@@ -88,12 +88,12 @@ try {
         // firstTest.OpenLobbyRunGame();
     }
 
-    public List<String> getLists() throws IOException {
-        String fileName = "/Users/mykhail/IdeaProjects/first-test/src/test/resources/data.txt";
-        List<String> elements = new ArrayList<>();
-        Stream<String> stream = Files.lines(Paths.get(fileName));
-        stream.forEach(elements::add);
-        return elements;
-    }
+//    public List<String> getLists() throws IOException {
+//        String fileName = "/Users/mykhail/IdeaProjects/first-test/src/test/resources/data.txt";
+//        List<String> elements = new ArrayList<>();
+//        Stream<String> stream = Files.lines(Paths.get(fileName));
+//        stream.forEach(elements::add);
+//        return elements;
+//    }
 
 }
