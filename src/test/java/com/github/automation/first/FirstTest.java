@@ -31,7 +31,7 @@ public class FirstTest {
     @BeforeMethod
     public void OpenLobbyPage () {
         //Open url
-        driver.get("https://cdn.gameiom.com/gameiom/gamelobby/test/build-3/index.html#!/login");
+        driver.get("https://cdn.gameiom.com/gameiom/gamelobby/test/build-4/index.html#!/login");
         String handle = driver.getWindowHandle();
     }
 
@@ -44,8 +44,8 @@ public class FirstTest {
     public void testSignInLobby() throws InterruptedException {
         // Fill 'Login' field
         WebDriverWait wait = new WebDriverWait(driver, 20);
-       wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div/section/section/form/input[1]")));
-        driver.findElement(By.xpath("/html/body/div/div/section/section/form/input[1]"))
+       wait.until(ExpectedConditions.visibilityOfElementLocated(xpath("/html/body/div/div/section/section/form/input[1]")));
+        driver.findElement(xpath("/html/body/div/div/section/section/form/input[1]"))
                 .sendKeys("gameiom_test4");
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
         //Click 'Login' button
@@ -56,7 +56,7 @@ public class FirstTest {
     public void testOpenGame() throws InterruptedException {
         //PageLoadTimeout Command
         WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div/div/section/div/div[5]/div[5]/a[1]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(xpath("/html/body/div/div/section/div/div[5]/div[5]/a[1]")));
         driver.findElement(xpath("/html/body/div/div/section/div/div[5]/div[5]/a[1]")).click();
         Thread.sleep(5000);
         for(String handleGame : driver.getWindowHandles()){

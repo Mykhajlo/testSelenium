@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c27057d-f57e-4b73-8baa-a384eaccf3b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/CheckElement.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java" />
+    <list default="true" id="5c27057d-f57e-4b73-8baa-a384eaccf3b9" name="Default" comment="[GIM-00] - created test;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMenuItems.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckRacePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/newRaceDetail.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/CheckElement.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/CheckElement.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/FirstTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/OneSingleBet.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/OneSingleBet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/SingleBetWithDefaultStake.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/SingleBetWithDefaultStake.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java" />
@@ -38,31 +46,44 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="765">
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
               <folding>
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1060#1061#0" expanded="false" />
+                <element signature="e#1090#1091#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
+      <file leaf-file-name="CheckElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="795">
+              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OneSingleBet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java">
+      <file leaf-file-name="SingleBetWithDefaultStake.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="31" />
+            <state relative-caret-position="840">
+              <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckMultiplePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2642">
+              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="184" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +91,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleBetWithDefaultStake.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java">
+      <file leaf-file-name="CheckSinglesRacesFullFlow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="640">
+              <caret line="183" column="23" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckCashout.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newRaceDetail.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/newRaceDetail.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,12 +154,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/Mocks.java" />
         <option value="$PROJECT_DIR$/src/test/resources/data.csv" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/ResourceDoesNotExistException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/data.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckRacePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMenuItems.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/ResourceDoesNotExistException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/data.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/SinglesRacesFullFlow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/newRaceDetail.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java" />
       </list>
     </option>
   </component>
@@ -163,9 +214,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="16" />
-    <option name="y" value="30" />
-    <option name="width" value="1400" />
-    <option name="height" value="784" />
+    <option name="y" value="23" />
+    <option name="width" value="1424" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -192,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,7 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,7 +290,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,15 +312,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -283,12 +372,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/github/automation/first" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckElement.CheckAllElements">
-    <configuration default="false" name="CheckElement.CheckAllElements" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (3)">
+    <configuration default="false" name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -300,8 +393,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckElement" />
-      <option name="METHOD_NAME" value="CheckAllElements" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckSinglesRacesFullFlow" />
+      <option name="METHOD_NAME" value="CheckSinglesRacesFullFlow" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -321,7 +414,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckElement.CheckAllElements (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (5)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -333,8 +426,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckElement" />
-      <option name="METHOD_NAME" value="CheckAllElements" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckSinglesRacesFullFlow" />
+      <option name="METHOD_NAME" value="CheckSinglesRacesFullFlow" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -354,7 +447,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckElement.CheckAllElements (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -366,8 +459,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckElement" />
-      <option name="METHOD_NAME" value="CheckAllElements" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckSinglesRacesFullFlow" />
+      <option name="METHOD_NAME" value="CheckSinglesRacesFullFlow" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -387,7 +480,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckElement.CheckAllElements (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -399,8 +492,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckElement" />
-      <option name="METHOD_NAME" value="CheckAllElements" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckSinglesRacesFullFlow" />
+      <option name="METHOD_NAME" value="CheckSinglesRacesFullFlow" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -420,7 +513,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckElement.CheckAllElements (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -432,8 +525,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckElement" />
-      <option name="METHOD_NAME" value="CheckAllElements" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckSinglesRacesFullFlow" />
+      <option name="METHOD_NAME" value="CheckSinglesRacesFullFlow" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -868,19 +961,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (3)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (4)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (2)" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (5)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (2)" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (2)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (4)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CheckElement.CheckAllElements (3)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (3)" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (2)" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (1)" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -909,44 +1002,63 @@
       <workItem from="1500983625319" duration="189000" />
       <workItem from="1500983927723" duration="1559000" />
       <workItem from="1501058164638" duration="13390000" />
-      <workItem from="1501136931816" duration="30881000" />
+      <workItem from="1501136931816" duration="32286000" />
+      <workItem from="1501314874981" duration="10000" />
+      <workItem from="1501484076055" duration="795000" />
+      <workItem from="1501655502301" duration="15602000" />
+      <workItem from="1501744514437" duration="6735000" />
+      <workItem from="1501829005516" duration="7769000" />
+      <workItem from="1502085982309" duration="5670000" />
+      <workItem from="1502175371721" duration="18069000" />
+      <workItem from="1502224619217" duration="6000" />
+      <workItem from="1502225119508" duration="5000" />
+      <workItem from="1502258807565" duration="21795000" />
+      <workItem from="1502347514238" duration="449000" />
     </task>
+    <task id="LOCAL-00001" summary="[GIM-00] - created test;">
+      <created>1501250212125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501250212125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 14h 40m 58s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow - 2017.08.09 at 15h 38m 42s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 14h 57m 54s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow - 2017.08.09 at 15h 44m 09s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 14h 58m 22s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow - 2017.08.09 at 16h 31m 17s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 14h 59m 34s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow - 2017.08.09 at 16h 49m 32s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 15h 00m 28s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow_(1) - 2017.08.09 at 16h 08m 09s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 15h 57m 02s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow_(2) - 2017.08.09 at 16h 43m 25s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 15h 59m 14s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow_(3) - 2017.08.09 at 15h 40m 10s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (3)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements - 2017.07.28 at 16h 00m 37s.xml">
-      <configuration name="CheckElement.CheckAllElements" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow_(3) - 2017.08.09 at 16h 51m 55s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (3)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements_(1) - 2017.07.28 at 15h 00m 59s.xml">
-      <configuration name="CheckElement.CheckAllElements (1)" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow_(4) - 2017.08.09 at 15h 45m 40s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (4)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckElement_CheckAllElements_(2) - 2017.07.28 at 15h 01m 25s.xml">
-      <configuration name="CheckElement.CheckAllElements (2)" configurationId="TestNG" />
+    <history-entry file="CheckSinglesRacesFullFlow_CheckSinglesRacesFullFlow_(5) - 2017.08.09 at 15h 56m 00s.xml">
+      <configuration name="CheckSinglesRacesFullFlow.CheckSinglesRacesFullFlow (5)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123746000" />
+    <option name="totallyTimeSpent" value="202056000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -958,24 +1070,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="30" width="1400" height="784" extended-state="0" />
+    <frame x="16" y="23" width="1424" height="791" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1605302" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3916185" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32188842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21281296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19247468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -985,7 +1095,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -999,9 +1111,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[GIM-00] - created test;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[GIM-00] - created test;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java</url>
+          <line>343</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1010,22 +1134,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,56 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="74" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -1092,8 +1154,9 @@
         <state relative-caret-position="210">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1102,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,9 +1172,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -1121,8 +1200,9 @@
         <state relative-caret-position="210">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1131,7 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,57 +1218,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,8 +1227,9 @@
         <state relative-caret-position="900">
           <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1208,7 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,9 +1245,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,8 +1261,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1245,9 +1272,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,7 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,8 +1288,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1274,9 +1299,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,7 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,8 +1315,9 @@
         <state relative-caret-position="675">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1303,9 +1326,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,8 +1342,9 @@
         <state relative-caret-position="180">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1332,9 +1353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,14 +1386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1393,61 +1404,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/ResourceDoesNotExistException.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/ResourceDoesNotExistException.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0-sources.jar!/org/openqa/selenium/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="267">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMainPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMenuItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckRacePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="795">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="184" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="1248" column="0" selection-start-line="1248" selection-start-column="0" selection-end-line="1248" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/newRaceDetail.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2642">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="184" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="640">
+          <caret line="183" column="23" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
