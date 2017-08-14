@@ -29,7 +29,8 @@ public class CheckSinglesRacesFullFlow {
     }
     public void CheckSinglesRacesFullFlowFeatures () throws Exception {
         /* Open Game
-
+        add one  bet, start game, check all element at left and right part of page, watch video, check elements, start new game,
+        add 6 singles bets with no zero stakes, start game, skip race  one  by one until Cashout button appeared, click Cashout
         */
 
         driver.switchTo().frame(driver.findElement(By.id("iframeContainer")));
@@ -143,7 +144,7 @@ public class CheckSinglesRacesFullFlow {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/div/section/a[1]/div")).click();// Click Skip
         Thread.sleep(1000);
-        // check that Next Race
+        // check that Next Race appeared
         String nextRace = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/div[2]/div[2]/a/div")).getText();
         System.out.println(nextRace);
         if (nextRace.equals("NEXT RACE")) {

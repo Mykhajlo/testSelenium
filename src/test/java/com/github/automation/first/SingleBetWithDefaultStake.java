@@ -66,7 +66,7 @@ public class SingleBetWithDefaultStake {
         //driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/footer/a")).click(); // Click Skip All button
         System.out.println("New Game Button appeared");
         Thread.sleep(2000);
-        String resolution  = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/section/table[1]/tbody/tr/td[3]/span[2]/translate/span")).getText();
+        String resolution  = driver.findElement(By.xpath("c")).getText();
         if (resolution.equals("LOST")) {
             System.out.println("User lost");
         } else System.out.println("User win");

@@ -7,8 +7,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-
 import static com.github.automation.first.FirstTest.driver;
 
 /**
