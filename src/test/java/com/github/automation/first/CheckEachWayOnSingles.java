@@ -21,7 +21,9 @@ public class CheckEachWayOnSingles {
     }
     public void CheckEachWayOnSinglesFeatures ()throws Exception{
         /* Open Game
-
+        add 6th singles bet, set EW = yes for all 6 singles bet
+        start race, watch race, skip all races , check result word under dogs name
+        start new game
         */
         driver.switchTo().frame(driver.findElement(By.id("iframeContainer")));
         System.out.println("Bingo! You are at iframeContainer");

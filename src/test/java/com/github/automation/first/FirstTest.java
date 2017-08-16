@@ -46,7 +46,7 @@ public class FirstTest {
         WebDriverWait wait = new WebDriverWait(driver, 20);
        wait.until(ExpectedConditions.visibilityOfElementLocated(xpath("/html/body/div/div/section/section/form/input[1]")));
         driver.findElement(xpath("/html/body/div/div/section/section/form/input[1]"))
-                .sendKeys("gameiom_test4");
+                .sendKeys("gameiom_test2");
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
         //Click 'Login' button
         driver.findElement(xpath("/html/body/div/div/section/section/form/button")).click();

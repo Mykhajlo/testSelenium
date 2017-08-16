@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java" description="            wait.until(ExpectedConditions.visibili..." line="31" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c27057d-f57e-4b73-8baa-a384eaccf3b9" name="Default" comment="[GIM-00] - created test;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckGameForAllSingles.java" />
+    <list default="true" id="5c27057d-f57e-4b73-8baa-a384eaccf3b9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckDoubleBet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/FirstTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/SingleBetWithDefaultStake.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/SingleBetWithDefaultStake.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
     </list>
     <ignored path="first-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,6 +25,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/first-test$CheckEachWayOnMultiples_CheckEachWayOnMultiples__1_.coverage" NAME="CheckEachWayOnMultiples.CheckEachWayOnMultiples (1) Coverage Results" MODIFIED="1502865012040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.github.automation.first.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -34,11 +42,19 @@
       <file leaf-file-name="CheckMultiplePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="341" column="9" selection-start-line="341" selection-start-column="9" selection-end-line="341" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2670">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="187" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckSinglesPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="184" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,42 +62,31 @@
       <file leaf-file-name="CheckCashout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="309" column="22" selection-start-line="309" selection-start-column="22" selection-end-line="309" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleBetWithDefaultStake.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+            <state relative-caret-position="3795">
+              <caret line="261" column="27" selection-start-line="261" selection-start-column="27" selection-end-line="261" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckGameForAllSingles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckGameForAllSingles.java">
+      <file leaf-file-name="CheckEachWayOnMultiples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="129" />
+            <state relative-caret-position="1290">
+              <caret line="120" column="134" selection-start-line="120" selection-start-column="134" selection-end-line="120" selection-end-column="134" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#openIframe#0;class#CheckEachWayOnMultiples#0" expanded="false" />
+                <element signature="method#addEachWayToSevenMultiplesBet#0;class#CheckEachWayOnMultiples#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckEachWayOnSingles.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java">
+      <file leaf-file-name="CheckDoubleBet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckDoubleBet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+            <state relative-caret-position="70">
+              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +127,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/ResourceDoesNotExistException.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckElement.java" />
         <option value="$PROJECT_DIR$/src/test/resources/data.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckRacePage.java" />
@@ -137,6 +141,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckDoubleBet.java" />
       </list>
     </option>
   </component>
@@ -212,11 +219,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,29 +252,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,20 +300,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -349,8 +324,8 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles">
-    <configuration default="false" name="CheckEachWayOnSingles.CheckEachWayOnSingles" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckDoubleBet.CheckDoubleBet (2)">
+    <configuration default="false" name="CheckDoubleBet.CheckDoubleBet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -362,8 +337,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckEachWayOnSingles" />
-      <option name="METHOD_NAME" value="CheckEachWayOnSingles" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckDoubleBet" />
+      <option name="METHOD_NAME" value="CheckDoubleBet" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -383,7 +358,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckEachWayOnSingles.CheckEachWayOnSingles (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckEachWayOnMultiples.CheckEachWayOnMultiples" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -395,8 +370,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckEachWayOnSingles" />
-      <option name="METHOD_NAME" value="CheckEachWayOnSingles" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckEachWayOnMultiples" />
+      <option name="METHOD_NAME" value="CheckEachWayOnMultiples" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -416,7 +391,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckEachWayOnSingles.CheckEachWayOnSingles (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckEachWayOnMultiples.CheckEachWayOnMultiples (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -428,8 +403,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckEachWayOnSingles" />
-      <option name="METHOD_NAME" value="CheckEachWayOnSingles" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckEachWayOnMultiples" />
+      <option name="METHOD_NAME" value="CheckEachWayOnMultiples" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -449,7 +424,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckEachWayOnSingles.CheckEachWayOnSingles (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckDoubleBet.CheckDoubleBet (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -461,8 +436,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckEachWayOnSingles" />
-      <option name="METHOD_NAME" value="CheckEachWayOnSingles" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckDoubleBet" />
+      <option name="METHOD_NAME" value="CheckDoubleBet" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -482,7 +457,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckEachWayOnSingles.CheckEachWayOnSingles (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckDoubleBet.CheckDoubleBet (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -494,8 +469,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckEachWayOnSingles" />
-      <option name="METHOD_NAME" value="CheckEachWayOnSingles" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckDoubleBet" />
+      <option name="METHOD_NAME" value="CheckDoubleBet" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -930,19 +905,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (2)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (3)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (4)" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.CheckDoubleBet.CheckDoubleBet" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnMultiples.CheckEachWayOnMultiples" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnMultiples.CheckEachWayOnMultiples (1)" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CheckDoubleBet.CheckDoubleBet (1)" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CheckDoubleBet.CheckDoubleBet (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (4)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (3)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (2)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnSingles.CheckEachWayOnSingles (1)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CheckDoubleBet.CheckDoubleBet (2)" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CheckDoubleBet.CheckDoubleBet" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CheckDoubleBet.CheckDoubleBet (1)" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnMultiples.CheckEachWayOnMultiples" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.CheckEachWayOnMultiples.CheckEachWayOnMultiples (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -984,7 +959,11 @@
       <workItem from="1502258807565" duration="21795000" />
       <workItem from="1502347514238" duration="20340000" />
       <workItem from="1502616459958" duration="104000" />
-      <workItem from="1502691765454" duration="18926000" />
+      <workItem from="1502691765454" duration="18966000" />
+      <workItem from="1502779937757" duration="5810000" />
+      <workItem from="1502864925655" duration="14557000" />
+      <workItem from="1502885173558" duration="5677000" />
+      <workItem from="1502906944023" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="[GIM-00] - created test;">
       <created>1501250212125</created>
@@ -1007,43 +986,50 @@
       <option name="project" value="LOCAL" />
       <updated>1502388505124</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[GIM-00] - created test;">
+      <created>1502718721269</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1502718721269</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 15h 29m 27s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 46m 31s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 15h 31m 02s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 48m 16s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 16h 11m 00s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 50m 23s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 16h 12m 43s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 51m 29s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 16h 32m 34s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 55m 05s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 16h 34m 21s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 56m 04s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 16h 42m 34s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 59m 15s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 16h 44m 24s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 15h 59m 39s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles - 2017.08.14 at 16h 49m 21s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet - 2017.08.16 at 16h 00m 01s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckEachWayOnSingles_CheckEachWayOnSingles_(4) - 2017.08.14 at 16h 30m 38s.xml">
-      <configuration name="CheckEachWayOnSingles.CheckEachWayOnSingles (4)" configurationId="TestNG" />
+    <history-entry file="CheckDoubleBet_CheckDoubleBet_(2) - 2017.08.16 at 16h 20m 55s.xml">
+      <configuration name="CheckDoubleBet.CheckDoubleBet (2)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240977000" />
+    <option name="totallyTimeSpent" value="267067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,19 +1046,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1605302" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34620887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19247468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19464543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3962804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1081,33 +1066,36 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.025325615" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1605302" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1605302" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39739883" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3962804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32188842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34620887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.025325615" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19247468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19464543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1129,7 +1117,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1138,29 +1134,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1387,13 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMenuItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1401,14 +1367,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="184" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,15 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,74 +1394,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="309" column="22" selection-start-line="309" selection-start-column="22" selection-end-line="309" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
+        <state relative-caret-position="150">
           <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="106" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1891">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="69" />
+        <state relative-caret-position="617">
+          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#checkBetResult#0;class#CheckEachWayOnSingles#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckGameForAllSingles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="184" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3795">
+          <caret line="261" column="27" selection-start-line="261" selection-start-column="27" selection-end-line="261" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesRacesFullFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2649">
+          <caret line="192" column="1" selection-start-line="192" selection-start-column="1" selection-end-line="197" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckRacePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="-510">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="341" column="9" selection-start-line="341" selection-start-column="9" selection-end-line="341" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="339">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/SingleBetWithDefaultStake.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+        <state relative-caret-position="512">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="187" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckGameForAllSingles.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="129" />
+        <state relative-caret-position="1290">
+          <caret line="120" column="134" selection-start-line="120" selection-start-column="134" selection-end-line="120" selection-end-column="134" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#openIframe#0;class#CheckEachWayOnMultiples#0" expanded="false" />
+            <element signature="method#addEachWayToSevenMultiplesBet#0;class#CheckEachWayOnMultiples#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnSingles.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="147" column="25" selection-start-line="147" selection-start-column="25" selection-end-line="147" selection-end-column="25" />
+        <state relative-caret-position="179">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckDoubleBet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
