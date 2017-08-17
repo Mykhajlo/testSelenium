@@ -29,7 +29,8 @@ public class OneSingleBet {
     @BeforeClass
     public void setUp() {
         webDriver = driver;
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
     }
 
     public void SingleBetWithZeroStake () throws InterruptedException {

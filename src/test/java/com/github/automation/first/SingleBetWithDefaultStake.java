@@ -20,7 +20,9 @@ public class SingleBetWithDefaultStake {
     @BeforeClass
     public void setUp() {
         webDriver = driver;
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
+        driver.manage().window().maximize();
     }
     public  void SingleBetWithNotZeroStake() throws InterruptedException {
     // make one single bet with no Zero stake and run game

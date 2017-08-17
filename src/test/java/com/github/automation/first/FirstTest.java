@@ -13,6 +13,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.openqa.selenium.Dimension;
 
 import java.util.concurrent.TimeUnit;
 
@@ -25,7 +26,11 @@ public class FirstTest {
    @BeforeClass
   public void setUp() {
        driver = new ChromeDriver();
-       System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+       //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+       System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
+       Dimension d = new Dimension(1400,900); // > HD resolution
+       driver.manage().window().setSize(d);
+       //driver.manage().window().maximize(); // full size  of screen
    }
 
     @BeforeMethod
@@ -46,7 +51,7 @@ public class FirstTest {
         WebDriverWait wait = new WebDriverWait(driver, 20);
        wait.until(ExpectedConditions.visibilityOfElementLocated(xpath("/html/body/div/div/section/section/form/input[1]")));
         driver.findElement(xpath("/html/body/div/div/section/section/form/input[1]"))
-                .sendKeys("gameiom_test2");
+                .sendKeys("gameiom_test4");
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
         //Click 'Login' button
         driver.findElement(xpath("/html/body/div/div/section/section/form/button")).click();

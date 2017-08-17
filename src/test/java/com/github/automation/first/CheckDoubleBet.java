@@ -12,14 +12,20 @@ import static com.github.automation.first.FirstTest.driver;
  */
 public class CheckDoubleBet {
     public WebDriver webDriver;
+
     @BeforeClass
     public void setUp() {
-        webDriver = driver;
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
     }
     public void CheckDoubleBetFeatures () throws  Exception {
         /* Open Game
         submit two singles with stake = 0, submit Double  bet with stake != 0,
+        Start Game, check number of bets,check results, check stake, open New Game
+        submit 6 singles bet with stake  = 0,  submit Double  bet with stake != 0,
+        Start Game, check number of bets, check bets name,,check results, check stake, open New Game
+        submit two singles with stake = 0, submit Double  bet with stake != 0, set Ew = yes  for Double bet
+        Start Game, check number of bets,check results, check stake, open New Game
         */
         CheckEachWayOnMultiples iframe = new CheckEachWayOnMultiples();
         iframe.openIframe();
@@ -31,15 +37,18 @@ public class CheckDoubleBet {
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/section/table/tbody/tr[5]/td[4]/a")).click(); //add bet 5 trap 2 race
         System.out.println("Bet at race 2 added");
         Thread.sleep(2000);
+
         // open Multiples page
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/nav/div[2]/a/span[1]")).click(); // open multiples  page
         Thread.sleep(1000);
+
         String betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
-        System.out.println("betName = " + betName);
+        System.out.println("Bet Name = " + betName);
         if (betName.equals("Doubles")) { // check that Doubles bet present at Multiples page
             System.out.println("Doubles bet is present at Multiples");
         } else System.out.println("Doubles bet is not present at Multiples");
         Thread.sleep(2000);
+        // change stake
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// Set Stake > 0 for double  bet
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// Set Stake > 0 for double  bet
@@ -70,19 +79,17 @@ public class CheckDoubleBet {
         Thread.sleep(1000);
         // open Multiples page
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/nav/div[2]/a/span[1]")).click(); // open multiples  page
-        Thread.sleep(1000);           //*[@id="game"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[2]
-        driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[2]")).click();// Set Stake > 0 for double  bet
-        //String a = driver.findElement(By.xpath("//*[@id=\\\"game\\\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[2]")).getText();
-        //System.out.println("a = " + a);
-//        stake = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[2]")).getText());//double stake
-//        System.out.println("Stake at Double = " + stake);
+        Thread.sleep(2000);           //*[@id="game"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[2]
+        driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// Set Stake > 0 for double  bet
+        stake = Double.parseDouble(driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[2]")).getText());//double stake
+        System.out.println("Stake at Double = " + stake);
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
-        System.out.println("betName = " + betName);
-        if (betName.equals("Doubles")) { // check that Doubles bet present at Multiples page
+        System.out.println("Bet Name = " + betName);
+        if (betName.equals("Double")) { // check that Doubles bet present at Multiples page
             System.out.println("Doubles bet is present at Multiples");
         } else System.out.println("Doubles bet is not present at Multiples");
         Thread.sleep(2000);
-        bet =  Integer.parseInt(driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[3]")).getText().substring(6));//double bet
+        bet =  Integer.parseInt(driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[3]")).getText().substring(7));//double bet
         System.out.println("Numbers of bets at Double = " + bet);
 
 
@@ -117,12 +124,6 @@ public class CheckDoubleBet {
 
         // open Multiples page
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/nav/div[2]/a/span[1]")).click(); // open multiples  page
-        Thread.sleep(1000);
-        betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
-        System.out.println("betName = " + betName);
-        if (betName.equals("Double")) { // check that Doubles bet present at Multiples page
-            System.out.println("Doubles bet is present at Multiples");
-        } else System.out.println("Doubles bet is not present at Multiples");
         Thread.sleep(2000);
 
         // change stake
@@ -130,14 +131,19 @@ public class CheckDoubleBet {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// Set Stake > 0 for double  bet
         Thread.sleep(2000);
+        betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
+        System.out.println("Bet Name = " + betName);
+        if (betName.equals("Double")) { // check that Doubles bet present at Multiples page
+            System.out.println("Doubles bet is present at Multiples");
+        } else System.out.println("Doubles bet is not present at Multiples");
 
         // set EW = yes
-        driver.findElement(By.xpath("66666666666666666")).click();// Set EW = yes
+        driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[2]/div/div")).click();// Set EW = yes
         Thread.sleep(2000);
 
         // check bet name
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
-        System.out.println("betName = " + betName);
+        System.out.println("Bet Name = " + betName);
         if (betName.equals("Doubles")) { // check that Doubles bet present at Multiples page
             System.out.println("Doubles bet is present at Multiples");
         } else System.out.println("Doubles bet is not present at Multiples");

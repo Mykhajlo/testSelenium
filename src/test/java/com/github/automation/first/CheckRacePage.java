@@ -20,7 +20,8 @@ public class CheckRacePage {
     @BeforeClass
     public void setUp() {
         webDriver = driver;
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
     }
     public void CheckRacePageFeatures() throws  InterruptedException{
         /* Open Game
