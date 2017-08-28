@@ -17,12 +17,22 @@ public class CheckTrebleBet {
     }
     public  void CheckTrebleBetFeatures () throws  Exception {
         /* Open Game
-
+        submit three singles with stake = 0,open multiples page, check bet name
+        Set Stake > 0 for double  bet, Start Game
+        check treble stake/bet/result, Click Skip All, Click New Game
+        submit three singles with stake = 0,open multiples page, check bet name
+        Set Stake > 0 for double  bet, add bet 2 trap 4 race, check that Doubles bet present at Multiples page
+        add bet 3 trap 5 race, add bet 4 trap 6 race, Click Start Game
+        check treble stake/bet/result, Click Skip All, Click New Game
+        submit three singles with stake = 0,open multiples page, check bet name,
+        Set Stake > 0 for double  bet, check treble stake/bet/
+        set EW = yes for treble bet, check bet name/bet, Click Start Game
+        check treble stake/bet/result, Click Skip All, Click New Game
         */
         CheckEachWayOnMultiples iframe = new CheckEachWayOnMultiples();
         iframe.openIframe();
 
-        // submit three singles with stake = 0
+        // submit three singles with stake = 0,
         addThreeSinglesBetWithZeroStake();
         // open multiples page
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/nav/div[2]/a/span[1]")).click(); // open multiples  page
@@ -30,7 +40,7 @@ public class CheckTrebleBet {
         // check bet name
         String betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[2]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         System.out.println("Bet Name = " + betName);
-        if (betName.equals("Treble")) { // check that Doubles bet present at Multiples page
+        if (betName.equals("Treble")) { // check that Treble bet present at Multiples page
             System.out.println("Treble bet is present at Multiples");
         } else System.out.println("Treble bet is not present at Multiples");
         Thread.sleep(2000);
@@ -109,6 +119,7 @@ public class CheckTrebleBet {
         System.out.println("Numbers of bets at  " + betName + " = " + bet);
         Thread.sleep(1000);
         System.out.println("Game started. " + betName + " bet = " + betName);
+
         // Start Game
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[2]/div[1]/a")).click();// Click Start Game
         Thread.sleep(1000);

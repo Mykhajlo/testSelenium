@@ -4,7 +4,7 @@ package com.github.automation.first;
  * Created by mykhail on 18.07.17.
  */
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,7 +13,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.openqa.selenium.Dimension;
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,25 +22,25 @@ public class FirstTest {
 
     public static WebDriver driver;
 
-   @BeforeClass
-  public void setUp() {
-       driver = new ChromeDriver();
-       //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-       System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
-       Dimension d = new Dimension(1400,900); // > HD resolution
-       driver.manage().window().setSize(d);
-       //driver.manage().window().maximize(); // full size  of screen
-   }
+    @BeforeClass
+    public void setUp() {
+        driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
+        Dimension d = new Dimension(1400, 900); // > HD resolution
+        driver.manage().window().setSize(d);
+        //driver.manage().window().maximize(); // full size  of screen
+    }
 
     @BeforeMethod
-    public void OpenLobbyPage () {
+    public void OpenLobbyPage() {
         //Open url
         driver.get("https://cdn.gameiom.com/gameiom/gamelobby/test/build-4/index.html#!/login");
         String handle = driver.getWindowHandle();
     }
 
     @AfterClass
-    public void tearDown () {
+    public void tearDown() {
         driver.close();
     }
 
@@ -49,7 +48,7 @@ public class FirstTest {
     public void testSignInLobby() throws InterruptedException {
         // Fill 'Login' field
         WebDriverWait wait = new WebDriverWait(driver, 20);
-       wait.until(ExpectedConditions.visibilityOfElementLocated(xpath("/html/body/div/div/section/section/form/input[1]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(xpath("/html/body/div/div/section/section/form/input[1]")));
         driver.findElement(xpath("/html/body/div/div/section/section/form/input[1]"))
                 .sendKeys("gameiom_test4");
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
@@ -64,7 +63,7 @@ public class FirstTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(xpath("/html/body/div/div/section/div/div[5]/div[5]/a[1]")));
         driver.findElement(xpath("/html/body/div/div/section/div/div[5]/div[5]/a[1]")).click();
         Thread.sleep(5000);
-        for(String handleGame : driver.getWindowHandles()){
+        for (String handleGame : driver.getWindowHandles()) {
             driver.switchTo().window(handleGame);
         }
         System.out.println(driver.getCurrentUrl());
