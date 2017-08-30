@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c27057d-f57e-4b73-8baa-a384eaccf3b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Myhajlo_Rozputnyj.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckAccaBet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckPatentBet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckTrixieBet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/automation/first/FirstTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/AccaBetTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FourfoldBetTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/Lucky15BetTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/YankeeBetTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckAccaBet.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first-test.iml" afterPath="$PROJECT_DIR$/first-test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckTrebleBet.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckTrebleBet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java" />
     </list>
     <ignored path="first-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,25 +117,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckCashout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java">
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="328" column="10" lean-forward="false" selection-start-line="328" selection-start-column="10" selection-end-line="329" selection-end-column="67" />
+            <state relative-caret-position="188">
+              <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="66" />
               <folding>
-                <element signature="method#checkNextRaceIsPresent#0;class#CheckCashout#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckAccaBet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckAccaBet.java">
+      <file leaf-file-name="YankeeBetTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/YankeeBetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="112" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#YankeeBetTest#0" expanded="false" />
+                <element signature="method#openLobbyPage#0;class#YankeeBetTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lucky15BetTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/Lucky15BetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#Lucky15BetTest#0" expanded="false" />
+                <element signature="method#openLobbyPage#0;class#Lucky15BetTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourfoldBetTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FourfoldBetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="48" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#FourfoldBetTest#0" expanded="false" />
+                <element signature="method#openLobbyPage#0;class#FourfoldBetTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -148,30 +174,22 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="595">
               <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <file leaf-file-name="CanadianBetTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="579">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#CanadianBetTest#0" expanded="false" />
+                <element signature="method#openLobbyPage#0;class#CanadianBetTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -213,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/SinglesRacesFullFlow.java" />
         <option value="$PROJECT_DIR$/src/test/resources/newRaceDetail.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckCashout.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckSinglesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java" />
@@ -233,8 +250,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckAccaBet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/AccaBetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/YankeeBetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/Lucky15BetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/FourfoldBetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java" />
       </list>
     </option>
   </component>
@@ -428,8 +451,8 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckAccaBet">
-    <configuration default="false" name="CheckAccaBet.CheckAccaBet (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CanadianBetTest">
+    <configuration default="false" name="AccaBetTest.checkAccaBetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -441,8 +464,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckAccaBet" />
-      <option name="METHOD_NAME" value="CheckAccaBet" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.AccaBetTest" />
+      <option name="METHOD_NAME" value="checkAccaBetFeatures" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -462,7 +485,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckAccaBet.CheckAccaBet (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="YankeeBetTest.checkYankeeBetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -474,8 +497,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckAccaBet" />
-      <option name="METHOD_NAME" value="CheckAccaBet" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.YankeeBetTest" />
+      <option name="METHOD_NAME" value="checkYankeeBetFeatures" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -495,7 +518,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckAccaBet.CheckAccaBet (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Lucky15BetTest.checkLucky15BetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -507,8 +530,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckAccaBet" />
-      <option name="METHOD_NAME" value="CheckAccaBet" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.Lucky15BetTest" />
+      <option name="METHOD_NAME" value="checkLucky15BetFeatures" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -528,7 +551,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckAccaBet.CheckAccaBetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FourfoldBetTest.checkFourfoldBetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -540,8 +563,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckAccaBet" />
-      <option name="METHOD_NAME" value="CheckAccaBetFeatures" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.FourfoldBetTest" />
+      <option name="METHOD_NAME" value="checkFourfoldBetFeatures" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -561,7 +584,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CheckAccaBet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CanadianBetTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.automation.first.*" />
@@ -573,7 +596,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CheckAccaBet" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CanadianBetTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -976,19 +999,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBet (3)" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBet (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBet (2)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBetFeatures" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CheckAccaBet" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.AccaBetTest.checkAccaBetFeatures" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.YankeeBetTest.checkYankeeBetFeatures" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Lucky15BetTest.checkLucky15BetFeatures" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.FourfoldBetTest.checkFourfoldBetFeatures" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CanadianBetTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CheckAccaBet" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBetFeatures" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBet (3)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBet (2)" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CheckAccaBet.CheckAccaBet (1)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CanadianBetTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.FourfoldBetTest.checkFourfoldBetFeatures" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Lucky15BetTest.checkLucky15BetFeatures" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.YankeeBetTest.checkYankeeBetFeatures" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.AccaBetTest.checkAccaBetFeatures" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1063,7 +1086,7 @@
       <workItem from="1502954022547" duration="1898000" />
       <workItem from="1502956587130" duration="16177000" />
       <workItem from="1503395109398" duration="3742000" />
-      <workItem from="1503909772390" duration="23139000" />
+      <workItem from="1503909772390" duration="49861000" />
     </task>
     <task id="LOCAL-00001" summary="[GIM-00] - created test;">
       <created>1501250212125</created>
@@ -1100,43 +1123,50 @@
       <option name="project" value="LOCAL" />
       <updated>1502978606776</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[GIM-00] - created test;">
+      <created>1503934130644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503934130644</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 11m 36s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="CanadianBetTest - 2017.08.30 at 15h 10m 53s.xml">
+      <configuration name="CanadianBetTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 21m 47s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="FourfoldBetTest_checkFourfoldBetFeatures - 2017.08.30 at 13h 58m 43s.xml">
+      <configuration name="FourfoldBetTest.checkFourfoldBetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 22m 22s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="FourfoldBetTest_checkFourfoldBetFeatures - 2017.08.30 at 14h 03m 17s.xml">
+      <configuration name="FourfoldBetTest.checkFourfoldBetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 22m 49s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="FourfoldBetTest_checkFourfoldBetFeatures - 2017.08.30 at 14h 12m 27s.xml">
+      <configuration name="FourfoldBetTest.checkFourfoldBetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 23m 21s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="FourfoldBetTest_checkFourfoldBetFeatures - 2017.08.30 at 14h 35m 50s.xml">
+      <configuration name="FourfoldBetTest.checkFourfoldBetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 24m 00s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="Lucky15BetTest_checkLucky15BetFeatures - 2017.08.30 at 12h 59m 14s.xml">
+      <configuration name="Lucky15BetTest.checkLucky15BetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 24m 21s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="Lucky15BetTest_checkLucky15BetFeatures - 2017.08.30 at 13h 00m 17s.xml">
+      <configuration name="Lucky15BetTest.checkLucky15BetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 26m 09s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="Lucky15BetTest_checkLucky15BetFeatures - 2017.08.30 at 13h 09m 57s.xml">
+      <configuration name="Lucky15BetTest.checkLucky15BetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 26m 59s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="YankeeBetTest_checkYankeeBetFeatures - 2017.08.30 at 10h 15m 21s.xml">
+      <configuration name="YankeeBetTest.checkYankeeBetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckAccaBet - 2017.08.28 at 18h 27m 50s.xml">
-      <configuration name="CheckAccaBet" configurationId="TestNG" />
+    <history-entry file="YankeeBetTest_checkYankeeBetFeatures - 2017.08.30 at 10h 46m 50s.xml">
+      <configuration name="YankeeBetTest.checkYankeeBetFeatures" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314069000" />
+    <option name="totallyTimeSpent" value="340791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1149,18 +1179,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="4" width="1876" height="991" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16024229" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34225845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34225845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1184,35 +1214,36 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1605302" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16024229" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3962804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39580908" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32803467" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34575087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34225845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.025325615" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14812775" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32596043" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15473568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1255,14 +1286,8 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java</url>
-          <line>108</line>
-          <properties class="com.github.automation.first.CheckEachWayOnMultiples" method="addSixSinglesBetWithZeroStake" />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1271,41 +1296,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/OneSingleBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1495,47 +1485,7 @@
         <state relative-caret-position="136">
           <caret line="14" column="87" lean-forward="true" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckTrixieBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5287">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckDoubleBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="175" column="16" lean-forward="false" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#CheckDoubleBetFeatures#0;class#CheckDoubleBet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckTrebleBet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="67" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addThreeSinglesBetWithZeroStake#0;class#CheckTrebleBet#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1564,17 +1514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.1.1/testng-6.1.1.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -1583,10 +1522,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckMultiplePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3651">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckDoubleBet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="175" column="16" lean-forward="false" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#CheckDoubleBetFeatures#0;class#CheckDoubleBet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckTrebleBet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1730">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="67" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#addThreeSinglesBetWithZeroStake#0;class#CheckTrebleBet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/AccaBetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="244" column="8" lean-forward="false" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/YankeeBetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="112" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#YankeeBetTest#0" expanded="false" />
+            <element signature="method#openLobbyPage#0;class#YankeeBetTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckTrixieBet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="86" column="27" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="86" selection-end-column="27" />
+        <state relative-caret-position="378">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="27" />
           <folding>
             <element signature="method#addEachWayToSevenMultiplesBet#0;class#CheckEachWayOnMultiples#0" expanded="false" />
           </folding>
@@ -1603,38 +1610,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="188">
+          <caret line="98" column="16" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckAccaBet.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/Lucky15BetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#Lucky15BetTest#0" expanded="false" />
+            <element signature="method#openLobbyPage#0;class#Lucky15BetTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#CanadianBetTest#0" expanded="false" />
+            <element signature="method#openLobbyPage#0;class#CanadianBetTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FourfoldBetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#FourfoldBetTest#0" expanded="false" />
+            <element signature="method#openLobbyPage#0;class#FourfoldBetTest#0" expanded="false" />
           </folding>
         </state>
       </provider>

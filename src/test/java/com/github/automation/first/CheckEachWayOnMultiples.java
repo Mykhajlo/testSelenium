@@ -20,7 +20,7 @@ public class CheckEachWayOnMultiples {
         //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
     }
-    public void CheckEachWayOnSinglesFeatures ()throws Exception {
+    public void CheckEachWayOnMultiplesFeatures ()throws Exception {
         /* Open Game
         add 6th singles bet, add EW to all available multiples bet, Start Game
         watch 1 race, Skip All, check race results
@@ -143,7 +143,7 @@ public class CheckEachWayOnMultiples {
         firstTest.setUp();
         firstTest.OpenLobbyRunGame();
         System.out.println("Game is opened");
-        CheckEachWayOnSinglesFeatures();
+        CheckEachWayOnMultiplesFeatures();
         firstTest.tearDown();
     }
 }
