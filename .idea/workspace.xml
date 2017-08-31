@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c27057d-f57e-4b73-8baa-a384eaccf3b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/AccaBetTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/FourfoldBetTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/Lucky15BetTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/YankeeBetTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckAccaBet.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CheckEachWayOnMultiples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java" />
     </list>
     <ignored path="first-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourfoldBetTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourfoldBetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FourfoldBetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="48" selection-end-column="45" />
+            <state relative-caret-position="205">
+              <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="177" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setUp#0;class#FourfoldBetTest#0" expanded="false" />
@@ -171,21 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CanadianBetTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CanadianBetTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="412">
+              <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setUp#0;class#CanadianBetTest#0" expanded="false" />
@@ -451,40 +434,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CanadianBetTest">
-    <configuration default="false" name="AccaBetTest.checkAccaBetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.github.automation.first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="first-test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.github.automation.first" />
-      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.AccaBetTest" />
-      <option name="METHOD_NAME" value="checkAccaBetFeatures" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.CanadianBetTest.checkCanadianBetFeatures">
     <configuration default="false" name="YankeeBetTest.checkYankeeBetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -600,6 +550,39 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="CanadianBetTest.checkCanadianBetFeatures" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.github.automation.first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="first-test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.github.automation.first" />
+      <option name="MAIN_CLASS_NAME" value="com.github.automation.first.CanadianBetTest" />
+      <option name="METHOD_NAME" value="checkCanadianBetFeatures" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -999,19 +982,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.AccaBetTest.checkAccaBetFeatures" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.YankeeBetTest.checkYankeeBetFeatures" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Lucky15BetTest.checkLucky15BetFeatures" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FourfoldBetTest.checkFourfoldBetFeatures" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CanadianBetTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.YankeeBetTest.checkYankeeBetFeatures" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Lucky15BetTest.checkLucky15BetFeatures" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.FourfoldBetTest.checkFourfoldBetFeatures" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CanadianBetTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CanadianBetTest.checkCanadianBetFeatures" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CanadianBetTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FourfoldBetTest.checkFourfoldBetFeatures" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.Lucky15BetTest.checkLucky15BetFeatures" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.YankeeBetTest.checkYankeeBetFeatures" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.AccaBetTest.checkAccaBetFeatures" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CanadianBetTest.checkCanadianBetFeatures" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CanadianBetTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.FourfoldBetTest.checkFourfoldBetFeatures" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.Lucky15BetTest.checkLucky15BetFeatures" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.YankeeBetTest.checkYankeeBetFeatures" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1086,7 +1069,7 @@
       <workItem from="1502954022547" duration="1898000" />
       <workItem from="1502956587130" duration="16177000" />
       <workItem from="1503395109398" duration="3742000" />
-      <workItem from="1503909772390" duration="49861000" />
+      <workItem from="1503909772390" duration="51993000" />
     </task>
     <task id="LOCAL-00001" summary="[GIM-00] - created test;">
       <created>1501250212125</created>
@@ -1130,12 +1113,31 @@
       <option name="project" value="LOCAL" />
       <updated>1503934130644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[GIM-00] - created Yankee, Lucky15, Fourfold test;">
+      <created>1504096441626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504096441626</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="CanadianBetTest - 2017.08.30 at 15h 10m 53s.xml">
       <configuration name="CanadianBetTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CanadianBetTest_checkCanadianBetFeatures - 2017.08.31 at 10h 51m 17s.xml">
+      <configuration name="CanadianBetTest.checkCanadianBetFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CanadianBetTest_checkCanadianBetFeatures - 2017.08.31 at 10h 51m 48s.xml">
+      <configuration name="CanadianBetTest.checkCanadianBetFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CanadianBetTest_checkCanadianBetFeatures - 2017.08.31 at 10h 53m 59s.xml">
+      <configuration name="CanadianBetTest.checkCanadianBetFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CanadianBetTest_checkCanadianBetFeatures - 2017.08.31 at 11h 02m 35s.xml">
+      <configuration name="CanadianBetTest.checkCanadianBetFeatures" configurationId="TestNG" />
     </history-entry>
     <history-entry file="FourfoldBetTest_checkFourfoldBetFeatures - 2017.08.30 at 13h 58m 43s.xml">
       <configuration name="FourfoldBetTest.checkFourfoldBetFeatures" configurationId="TestNG" />
@@ -1149,24 +1151,12 @@
     <history-entry file="FourfoldBetTest_checkFourfoldBetFeatures - 2017.08.30 at 14h 35m 50s.xml">
       <configuration name="FourfoldBetTest.checkFourfoldBetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Lucky15BetTest_checkLucky15BetFeatures - 2017.08.30 at 12h 59m 14s.xml">
-      <configuration name="Lucky15BetTest.checkLucky15BetFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Lucky15BetTest_checkLucky15BetFeatures - 2017.08.30 at 13h 00m 17s.xml">
-      <configuration name="Lucky15BetTest.checkLucky15BetFeatures" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Lucky15BetTest_checkLucky15BetFeatures - 2017.08.30 at 13h 09m 57s.xml">
       <configuration name="Lucky15BetTest.checkLucky15BetFeatures" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="YankeeBetTest_checkYankeeBetFeatures - 2017.08.30 at 10h 15m 21s.xml">
-      <configuration name="YankeeBetTest.checkYankeeBetFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YankeeBetTest_checkYankeeBetFeatures - 2017.08.30 at 10h 46m 50s.xml">
-      <configuration name="YankeeBetTest.checkYankeeBetFeatures" configurationId="TestNG" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340791000" />
+    <option name="totallyTimeSpent" value="342923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1263,7 +1253,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[GIM-00] - created test;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[GIM-00] - created test;" />
+    <MESSAGE value="[GIM-00] - created Yankee, Lucky15, Fourfold test;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[GIM-00] - created Yankee, Lucky15, Fourfold test;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1643,18 +1634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#CanadianBetTest#0" expanded="false" />
-            <element signature="method#openLobbyPage#0;class#CanadianBetTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1665,12 +1644,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/FourfoldBetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="205">
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="177" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#FourfoldBetTest#0" expanded="false" />
             <element signature="method#openLobbyPage#0;class#FourfoldBetTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/CanadianBetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#CanadianBetTest#0" expanded="false" />
+            <element signature="method#openLobbyPage#0;class#CanadianBetTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
