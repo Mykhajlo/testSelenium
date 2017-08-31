@@ -54,7 +54,7 @@ public class FourfoldBetTest {
         // check bet name
         String betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fourfold".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fourfold".equals(betName)) { // check that Fourfold bet present at Multiples page
             LOGGER.info("Fourfold bet is present at Multiples");
         } else {
             LOGGER.info("Fourfold bet is not present at Multiples");
@@ -68,7 +68,7 @@ public class FourfoldBetTest {
         // check bet name after changing stake
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fourfolds".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fourfolds".equals(betName)) { // check that Fourfold bet present at Multiples page
             LOGGER.info("Fourfold bet name changed into " + betName);
         } else {
             LOGGER.info("Fourfold bet name is not changed");
@@ -95,7 +95,7 @@ public class FourfoldBetTest {
         System.out.println("Win value of " + betName + " bet = " + result);
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/footer/a")).click();// Click New Game
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         // submit six singles with stake = 0
         addSixSinglesBetWithZeroStakes(driver);
@@ -105,7 +105,7 @@ public class FourfoldBetTest {
         // check bet name
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fourfold".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fourfold".equals(betName)) { // check that Fourfold bet present at Multiples page
             LOGGER.info("Fourfold bet is present at Multiples");
         } else {
             LOGGER.info("Fourfold bet is not present at Multiples");
@@ -119,7 +119,7 @@ public class FourfoldBetTest {
         // check bet name after changing stake
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fourfolds".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fourfolds".equals(betName)) { // check that Fourfold bet present at Multiples page
             LOGGER.info("Fourfold bet name changed into " + betName);
         } else {
             LOGGER.info("Fourfold bet name is not changed");
@@ -153,7 +153,7 @@ public class FourfoldBetTest {
         // check bet name
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fourfold".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fourfold".equals(betName)) { // check that Fourfold bet present at Multiples page
             LOGGER.info("Fourfold bet is present at Multiples");
         } else {
             LOGGER.info("Fourfold bet is not present at Multiples");
@@ -167,7 +167,7 @@ public class FourfoldBetTest {
         // check bet name after changing stake
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fourfolds".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fourfolds".equals(betName)) { // check that Fourfold bet present at Multiples page
             LOGGER.info("Fourfold bet name changed into " + betName);
         } else {
             LOGGER.info("Fourfold bet name is not changed");
