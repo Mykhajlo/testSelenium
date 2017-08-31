@@ -37,13 +37,10 @@ public class CanadianBetTest {
         /*Open Game
         submit five singles with stake = 0, open multiples page
         check bet name, change stake, check bet
-        Start Game, check fourfold result after skipping races, Click New Game
-        submit five singles with stake = 0, open multiples page, add EW to fourfold
+        Start Game, check canadian result after skipping races, Click New Game
+        submit five singles with stake = 0, open multiples page, add EW to canadian
         check bet name, change stake, check bet
-        Start Game, check fourfold result after skipping races, Click New Game
-        submit five singles with stake = 0, open multiples page
-        check bet name, change stake, check bet
-        Start Game, check fourfold result after skipping races, Click New Game
+        Start Game, check canadian result after skipping races, Click New Game
          */
         switchToIframe(driver);
         // submit five singles with stake = 0
@@ -107,12 +104,15 @@ public class CanadianBetTest {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[5]/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// Set Stake > 0 for canadian bet
         Thread.sleep(2000);
+        bet = Integer.parseInt(driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[5]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[3]")).getText().substring(7));// canadian bet
+        LOGGER.info("Numbers of bets before EW at  " + betName + " = " + bet);
+        Thread.sleep(2000);
         // Set EW = yes
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[5]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[2]/div/div")).click();// Click EW
         Thread.sleep(2000);
         // check bet
         bet = Integer.parseInt(driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[5]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[3]")).getText().substring(7));// canadian bet
-        LOGGER.info("Numbers of bets at  " + betName + " = " + bet);
+        LOGGER.info("Numbers of bets after EW at  " + betName + " = " + bet);
 
         // Start Game
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[2]/div[1]/a")).click();// Click Start Game
