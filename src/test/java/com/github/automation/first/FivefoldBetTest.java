@@ -51,7 +51,7 @@ public class FivefoldBetTest {
         // check bet name
         String betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[4]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fivefold".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fivefold".equals(betName)) { // check that Fivefold bet present at Multiples page
             LOGGER.info("Fivefold bet is present at Multiples");
         } else {
             LOGGER.info("Fivefold bet is not present at Multiples");
@@ -65,7 +65,7 @@ public class FivefoldBetTest {
         // check bet name after changing stake
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[4]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fivefolds".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fivefolds".equals(betName)) { // check that Fivefold bet present at Multiples page
             LOGGER.info("Fivefolds bet name changed into " + betName);
         } else {
             LOGGER.info("Fivefolds bet name is not changed");
@@ -102,7 +102,7 @@ public class FivefoldBetTest {
         // check bet name
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[4]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fivefold".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fivefold".equals(betName)) { // check that Fivefold bet present at Multiples page
             LOGGER.info("Fivefold bet is present at Multiples");
         } else {
             LOGGER.info("Fivefold bet is not present at Multiples");
@@ -116,7 +116,7 @@ public class FivefoldBetTest {
         // check bet name after changing stake
         betName = driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[4]/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[1]/translate/span")).getText();
         LOGGER.info("Bet Name = " + betName);
-        if ("Fivefolds".equals(betName)) { // check that Yankee bet present at Multiples page
+        if ("Fivefolds".equals(betName)) { // check that Fivefold bet present at Multiples page
             LOGGER.info("Fivefolds bet name changed into " + betName);
         } else {
             LOGGER.info("Fivefolds bet name is not changed");
