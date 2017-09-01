@@ -149,12 +149,12 @@
       <file leaf-file-name="QuickClickTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/QuickClickTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="-267">
+              <caret line="186" column="17" lean-forward="false" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#QuickClickTest#0" expanded="false" />
-                <element signature="method#openLobbyPage#0;class#QuickClickTest#0" expanded="false" />
+                <marker date="1504275072935" expanded="false" signature="995:1039" ph="{...}" />
+                <marker date="1504275072935" expanded="false" signature="1119:1153" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -1068,7 +1068,7 @@
       <workItem from="1502954022547" duration="1898000" />
       <workItem from="1502956587130" duration="16177000" />
       <workItem from="1503395109398" duration="3742000" />
-      <workItem from="1503909772390" duration="83277000" />
+      <workItem from="1503909772390" duration="84533000" />
     </task>
     <task id="LOCAL-00001" summary="[GIM-00] - created test;">
       <created>1501250212125</created>
@@ -1154,43 +1154,50 @@
       <option name="project" value="LOCAL" />
       <updated>1504189413639</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[GIM-00] - created QuickClick test;">
+      <created>1504273826879</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1504273826879</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 23m 30s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 25m 18s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 34m 20s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 36m 09s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 38m 59s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 39m 31s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 41m 31s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 45m 02s.xml">
-      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 45m 54s.xml">
       <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
     </history-entry>
     <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 48m 11s.xml">
       <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 56m 24s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 16h 58m 16s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 17h 00m 19s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 17h 03m 07s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 17h 05m 56s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 17h 08m 28s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 17h 08m 53s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="QuickClickTest_QuickClickFeatures - 2017.09.01 at 17h 10m 16s.xml">
+      <configuration name="QuickClickTest.QuickClickFeatures" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="374207000" />
+    <option name="totallyTimeSpent" value="375463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1293,7 +1300,8 @@
     <MESSAGE value="[GIM-00] - created FivefoldBet test;" />
     <MESSAGE value="[GIM-00] - created HeinzBet test;" />
     <MESSAGE value="[GIM-00] - created Lucky63Bet test;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[GIM-00] - created Lucky63Bet test;" />
+    <MESSAGE value="[GIM-00] - created QuickClick test;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[GIM-00] - created QuickClick test;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1710,12 +1718,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/automation/first/QuickClickTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="-267">
+          <caret line="186" column="17" lean-forward="false" selection-start-line="186" selection-start-column="17" selection-end-line="186" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#QuickClickTest#0" expanded="false" />
-            <element signature="method#openLobbyPage#0;class#QuickClickTest#0" expanded="false" />
+            <marker date="1504275072935" expanded="false" signature="995:1039" ph="{...}" />
+            <marker date="1504275072935" expanded="false" signature="1119:1153" ph="{...}" />
           </folding>
         </state>
       </provider>

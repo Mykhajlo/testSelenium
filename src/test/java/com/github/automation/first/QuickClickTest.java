@@ -141,7 +141,7 @@ public class QuickClickTest {
         }
         Thread.sleep(2000);
 
-        //sibmit several more singles  bet with  stakes
+        //submit several more singles  bet with  stakes
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/main-header/header/div/header-navigation/div/div/a[3]")).click(); //open race 3 tab
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/section/table/tbody/tr[6]/td[4]/a")).click(); //add bet 6 trap 3 race
         LOGGER.info("Bet at race 3 added");
@@ -168,7 +168,7 @@ public class QuickClickTest {
         Thread.sleep(2000);
         LOGGER.info("Bet at race 6 added");
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/nav/div[1]/a/span")).click(); // open singles page
-        driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[5]/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// click "+"
+        driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[6]/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// click "+"
         Thread.sleep(2000);
 
 
@@ -184,20 +184,16 @@ public class QuickClickTest {
         }
         Thread.sleep(2000);
 
-//        driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/div/section/a[2]/div")).click();// click "WATCH RACE"
-//        Thread.sleep(2000);
-
         // Try Click several time 'WATCH RACE' button
-        for (int i = 0; i < 6; i++) {
             try {
-                driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/div/section/a[2]/div")).click();// click "WATCH RACE"
-                Thread.sleep(1);
-                LOGGER.info("Button 'WATCH RACE' clicked " + i);
+                if (driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/div/section/a[2]/div")).isDisplayed()) {
+                    driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/div/section/a[2]/div")).click();// click "WATCH RACE"
+                    Thread.sleep(1);
+                    LOGGER.info("Button 'WATCH RACE' clicked ");
+                }
             } catch (StaleElementReferenceException e) {
-                LOGGER.info(e.getMessage());
-                LOGGER.info("Button 'WATCH RACE' is not clicked ");
-            }
-        }
+        LOGGER.info(e.getMessage());
+    }
         Thread.sleep(1000);
 
         // Try Click several time 'SKIP' button at video
