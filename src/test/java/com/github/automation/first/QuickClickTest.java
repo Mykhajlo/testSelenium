@@ -17,7 +17,7 @@ import static com.github.automation.first.Utils.setupEnvironment;
 import static com.github.automation.first.Utils.switchToIframe;
 
 /**
- * Created by Myhajlo.Rozputnyj on 31.08.2017.
+ * @author Myhajlo.Rozputnyj  on 31.08.2017.
  */
 public class QuickClickTest {
     private static final Logger LOGGER = Logger.getLogger(AccaBetTest.class);
@@ -41,11 +41,24 @@ public class QuickClickTest {
     @Test
     public void QuickClickFeatures() throws Exception {
         /*Open Game
-
-         */
+        try Click several time  'Add to Bet Slip' button,
+        try Click several time  '+' button for single bet,
+        try Click several time  '-' button for single bet,
+        try Click several time  'EW' button for single bet,
+        try Click several time '+' button for multiples bet,
+        try Click several time '-' button for multiples bet,
+        try Click several time 'EW' button for multiples bet,
+        try Click several time 'START GAME' button,
+        try Click several time 'WATCH RACE' button,
+        try Click several time 'SKIP' button at video,
+        try Click several time 'Next Race' button,
+        try Click several time 'Skip' button at race part,
+        try Click several time 'Skip All' button at race part,
+        try Click several time 'New Game' button at race part
+        */
         switchToIframe(driver);
 
-        // Try Click several time  'Add to Bet Slip' button
+        // Try Click several time  'Add to Bet Slip' button BetsAppearingAtMultiplesTest
         for (int i = 0; i < 6; i++) {
             try {
             driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[1]/section/table/tbody/tr[1]/td[4]/a")).click(); // click 'Add to Bet Slip' button : 1 trap 1 race
@@ -85,7 +98,7 @@ public class QuickClickTest {
         }
         Thread.sleep(2000);
 
-        // Try Click several time  'EW' button for single bet
+        // Try Click several time 'EW' button for single bet
         for (int i = 0; i < 6; i++) {
             try {
                 driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div[1]/table/tbody/tr/td[1]/table[2]/tbody/tr/td[2]/div")).click();// click "EW"
@@ -105,7 +118,7 @@ public class QuickClickTest {
         driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/nav/div[2]/a/span[1]")).click(); // open multiples  page
         Thread.sleep(2000);
 
-        // Try Click several time  '+' button for multiples bet
+        // Try Click several time '+' button for multiples bet
         for (int i = 0; i < 6; i++) {
             try {
                 driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[3]")).click();// click "+"
@@ -117,7 +130,7 @@ public class QuickClickTest {
         }
         Thread.sleep(2000);
 
-        // Try Click several time  '-' button for multiples bet
+        // Try Click several time '-' button for multiples bet
         for (int i = 0; i < 6; i++) {
             try {
                 driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[2]/tbody/tr/td[1]/div/div[1]")).click();// click "-"
@@ -129,7 +142,7 @@ public class QuickClickTest {
         }
         Thread.sleep(2000);
 
-        // Try Click several time  'EW' button for multiples bet
+        // Try Click several time 'EW' button for multiples bet
         for (int i = 0; i < 6; i++) {
             try {
                 driver.findElement(By.xpath("//*[@id=\"game\"]/div[1]/section/div[2]/div/div/div[1]/div/div[2]/div/div/table/tbody/tr/td[1]/table[1]/tbody/tr/td[2]/div/div")).click();// click "EW"
